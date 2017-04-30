@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxOpenVR\src\CGLRenderModel.cpp">
+			<Filter>addons\ofxOpenVR\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxOpenVR\src\ofxOpenVR.cpp">
+			<Filter>addons\ofxOpenVR\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\glm.cpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR">
+			<UniqueIdentifier>{25970F59-3B24-8040-6C34-148E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\src">
+			<UniqueIdentifier>{6FB18BEC-43E9-843A-26C7-992D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs">
+			<UniqueIdentifier>{D3C43731-E944-3D09-901B-C4E3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\glm">
+			<UniqueIdentifier>{32061B8A-2D74-C19A-39F8-BE4D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\glm\glm">
+			<UniqueIdentifier>{2E716B2C-FC6F-4793-3722-704D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\glm\glm\detail">
+			<UniqueIdentifier>{BECAA4A8-B97F-F9DB-BB04-3917}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\glm\glm\gtc">
+			<UniqueIdentifier>{98D31BD7-E491-60D7-A4D2-91FD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\glm\glm\gtx">
+			<UniqueIdentifier>{694DC87A-53F7-3A65-C7CE-FE62}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\glm\glm\simd">
+			<UniqueIdentifier>{A7D73097-A442-F6E2-751C-503F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\OpenVR">
+			<UniqueIdentifier>{5F047289-8696-3B4A-7B9A-EE17}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOpenVR\libs\OpenVR\headers">
+			<UniqueIdentifier>{A589BCA1-C9C9-D575-C996-0AAC}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\src\CGLRenderModel.h">
+			<Filter>addons\ofxOpenVR\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\src\ofxOpenVR.h">
+			<Filter>addons\ofxOpenVR\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\common.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_common.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_exponential.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_geometric.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_integer.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_matrix.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_packing.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_trigonometric.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\func_vector_relational.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\precision.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\setup.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_float.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_gentype.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_half.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_int.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat2x2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat2x3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat2x4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat3x2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat3x3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat3x4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat4x2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat4x3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_mat4x4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_vec.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_vec1.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_vec2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_vec3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\type_vec4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\_features.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\_fixes.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\_noise.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\_swizzle.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\_swizzle_func.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\detail\_vectorize.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\exponential.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\ext.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\fwd.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\geometric.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\glm.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\bitfield.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\color_space.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\constants.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\epsilon.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\functions.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\integer.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\matrix_access.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\matrix_integer.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\matrix_inverse.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\matrix_transform.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\noise.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\packing.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\quaternion.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\random.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\reciprocal.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\round.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\type_aligned.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\type_precision.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\type_ptr.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\ulp.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtc\vec1.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\associated_min_max.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\bit.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\closest_point.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\color_encoding.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\color_space.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\color_space_YCoCg.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\common.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\compatibility.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\component_wise.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\dual_quaternion.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\euler_angles.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\extend.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\extended_min_max.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\exterior_product.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\fast_exponential.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\fast_square_root.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\fast_trigonometry.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\gradient_paint.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\handed_coordinate_space.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\hash.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\integer.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\intersect.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\io.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\log_base.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_cross_product.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_decompose.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_interpolation.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_major_storage.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_operation.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_query.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\matrix_transform_2d.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\mixed_product.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\norm.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\normal.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\normalize_dot.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\number_precision.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\optimum_pow.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\orthonormalize.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\perpendicular.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\polar_coordinates.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\projection.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\quaternion.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\range.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\raw_data.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\rotate_normalized_axis.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\rotate_vector.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\scalar_multiplication.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\scalar_relational.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\spline.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\std_based_type.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\string_cast.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\transform.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\transform2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\type_aligned.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\type_trait.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\vector_angle.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\vector_query.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\vec_swizzle.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\gtx\wrap.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\gtx</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\integer.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat2x2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat2x3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat2x4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat3x2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat3x3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat3x4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat4x2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat4x3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\mat4x4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\matrix.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\packing.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\common.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\exponential.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\geometric.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\integer.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\matrix.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\packing.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\platform.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\trigonometric.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\simd\vector_relational.h">
+			<Filter>addons\ofxOpenVR\libs\glm\glm\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\trigonometric.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\vec2.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\vec3.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\vec4.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\glm\glm\vector_relational.hpp">
+			<Filter>addons\ofxOpenVR\libs\glm\glm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\OpenVR\headers\openvr.h">
+			<Filter>addons\ofxOpenVR\libs\OpenVR\headers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\OpenVR\headers\openvr_capi.h">
+			<Filter>addons\ofxOpenVR\libs\OpenVR\headers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxOpenVR\libs\OpenVR\headers\openvr_driver.h">
+			<Filter>addons\ofxOpenVR\libs\OpenVR\headers</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
